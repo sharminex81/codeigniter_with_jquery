@@ -12,9 +12,11 @@ $(".btn-save").click(function(e){
         type:'POST',
         url: form_action,
         data:{first_name:first_name, last_name:last_name}
-    }).done(function(response){
-        console.log(response);
+    }).done(function(data){
+        console.log(data);
         $(".modal").modal('hide');
         toastr.success('User Created Successfully.', 'Success Alert', {timeOut: 5000});
     });
 });
+
+
