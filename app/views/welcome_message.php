@@ -9,6 +9,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12 margin-tb">
+            <br>
             <div class="pull-left">
                 <h2>Codeigniter 3 - Ajax CRUD Example</h2>
             </div>
@@ -44,7 +45,7 @@
                     <h4 class="modal-title" id="myModalLabel">Create User</h4>
                 </div>
                 <div class="modal-body">
-                    <form data-toggle="validator" action="usersController/store" method="POST">
+                    <form data-toggle="validator" action="users/store" method="POST">
                         <div class="form-group">
                             <label class="control-label" for="first_name">First Name:</label>
                             <input type="text" name="first_name" class="form-control" data-error="Please enter first name."
@@ -114,7 +115,7 @@
     var url = "items";
 </script>
 
-<script src="/js/user-ajax.js"></script>
+<script src="/assets/js/user-ajax.js"></script>
 
 </body>
 </html>
